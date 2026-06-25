@@ -1,0 +1,1 @@
+document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();const n=name.value.trim();const em=email.value.trim();const p=password.value;if(!n||!em||!p){alert('Fill all fields');return;}alert('Signup successful');});
